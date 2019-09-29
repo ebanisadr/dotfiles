@@ -30,7 +30,7 @@ set backspace=indent,eol,start
 " Reload files changed outside of vim
 set autoread
 
-" Insert blank lines above and below with Enter and Shift-Enter
+" Insert blank lines above and below with Enter and Space
 nnoremap <Enter> o<ESC>
 nnoremap <Space> O<ESC>
 

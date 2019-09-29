@@ -1,0 +1,4 @@
+.headers on
+.bail on
+.trace stdout
+.mode tabs

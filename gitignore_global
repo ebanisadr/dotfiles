@@ -1,5 +1,6 @@
 # MacOS
 .DS_Store
+*.icloud
 
 # vi
 *~

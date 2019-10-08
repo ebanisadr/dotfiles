@@ -98,9 +98,6 @@ set smartcase
 " Syntax highlighting
 syntax on
 
-" Set colorscheme based on the macOS dark mode if possible
-if system("defaults read -g AppleInterfaceStyle") =~ '^Dark'
-  colorscheme desert   " Dark mode
-else
-  colorscheme default  " Default/non dark mode
-endif
+" Solarized colorscheme
+set background=dark
+colorscheme solarized

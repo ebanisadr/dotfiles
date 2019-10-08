@@ -31,11 +31,15 @@ zstyle ':prezto:load' pmodule \
   'terminal' \
   'editor' \
   'history' \
+  'history-substring-search' \
   'directory' \
   'spectrum' \
   'utility' \
   'completion' \
   'prompt'
+
+# Disable highlighting for history substring search
+zstyle ':prezto:module:history-substring-search' color 'no'
 
 #
 # Autosuggestions

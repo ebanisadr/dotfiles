@@ -3,3 +3,5 @@
 # Please adapt and uncomment the following lines:
 	name = Eric Banisadr
 	email = ebani@uw.edu
+[core]
+	excludesfile = /Users/eric/.gitignore_global

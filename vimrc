@@ -30,6 +30,9 @@ set backspace=indent,eol,start
 " Reload files changed outside of vim
 set autoread
 
+" Manually set spellfile to ensure its updated
+set spellfile=~/.vim/spell/words.utf-8.add
+
 " Insert blank lines above and below with Enter and Space
 nnoremap <Enter> o<ESC>
 nnoremap <Space> O<ESC>
@@ -97,6 +100,10 @@ set smartcase
 
 " Syntax highlighting
 syntax on
+
+" Vertical line at col 81
+set colorcolumn=81
+
 
 " Solarized colorscheme
 set background=dark

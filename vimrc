@@ -30,6 +30,10 @@ set backspace=indent,eol,start
 " Reload files changed outside of vim
 set autoread
 
+" Enable persistent undo
+set undofile
+set undodir=~/.vim/undofiles
+
 " Manually set spellfile to ensure its updated
 set spellfile=~/.vim/spell/words.utf-8.add
 

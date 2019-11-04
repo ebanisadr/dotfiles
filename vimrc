@@ -12,7 +12,9 @@ set showcmd
 " Show the line and column numbers at the bottom
 set ruler
 
-" Make backspace work like other programs
+" Show a line under the cursor
+set cursorline
+
 "Show current mode down the bottom
 set showmode
 
@@ -25,6 +27,7 @@ set list listchars=tab:\ \ ,trail:·
 inoremap kj <Esc>
 inoremap jk <Esc>
 
+" Make backspace work like other programs
 set backspace=indent,eol,start
 
 " Reload files changed outside of vim

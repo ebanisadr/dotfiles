@@ -1,4 +1,5 @@
 .headers on
 .bail on
+.headers on
 -- .trace stdout
 .mode column

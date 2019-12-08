@@ -5,6 +5,9 @@
 # vi
 *~
 
+# vim
+*.swp
+
 # R
 .Rhistory
 

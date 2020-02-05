@@ -111,8 +111,6 @@ syntax on
 " Javascript templates
 " Tag on the left, filetype on the right
 let g:taggedtemplate#tagSyntaxMap = {
-  \ "html": "jsx",
-  \ "jsx": "jsx",
   \ "md": "markdown",
   \ "gql": "graphql",
   \ "css": "css" }

@@ -108,6 +108,17 @@ set smartcase
 " Syntax highlighting
 syntax on
 
+" Javascript templates
+" Tag on the left, filetype on the right
+let g:taggedtemplate#tagSyntaxMap = {
+  \ "html": "jsx",
+  \ "jsx": "jsx",
+  \ "md": "markdown",
+  \ "gql": "graphql",
+  \ "css": "css" }
+
+autocmd FileType javascript,typescript : call taggedtemplate#applySyntaxMap()
+
 " Vertical line at col 81
 set colorcolumn=81
 

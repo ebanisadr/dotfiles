@@ -15,3 +15,6 @@ fi
 # enable jump
 eval "$(jump shell zsh)"
 
+# Display a friendly date (like June 15, 2020)
+alias today="date \"+%B %d, %Y\""
+

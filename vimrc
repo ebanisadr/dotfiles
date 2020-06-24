@@ -124,3 +124,8 @@ set colorcolumn=81
 " Solarized colorscheme
 set background=dark
 colorscheme solarized
+
+" Insert date with \now or \today
+nnoremap <leader>now "=strftime("%Y-%m-%d %H:%M")<CR>p
+nnoremap <leader>today "=strftime("%B %d, %Y")<CR>p
+

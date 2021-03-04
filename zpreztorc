@@ -226,3 +226,6 @@ zstyle ':prezto:module:prompt' theme 'steeef'
 # before deleting or overwriting files. Set to 'no' to disable this safer
 # behavior.
 zstyle ':prezto:module:utility' safe-ops 'no'
+
+# Necessary for thefuck
+zstyle ':prezto:module:utility' correct 'no'

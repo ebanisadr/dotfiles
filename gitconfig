@@ -2,7 +2,7 @@
 [user]
 # Please adapt and uncomment the following lines:
 	name = Eric Banisadr
-	email = ebani@uw.edu
+	email = ebani@cs.washington.edu
 [core]
 	excludesfile = ~/.gitignore_global
 	autocrlf = input

@@ -1,2 +1,8 @@
+# List of places I've SSHd to should not go online
 known_hosts
+
+# Username/server combinations usually
 config
+
+# Public/private keys
+id_rsa*

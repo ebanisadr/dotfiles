@@ -1,3 +1,12 @@
+# Persistent edit histories for local files
 undofiles/*
+
+# Generated when using vim to edit remote files
 .netrwhist
+
+# I'm starting to think that spelling files might leak PII
+spell/*
+
+# Saved buffers on open files
+view/*
 

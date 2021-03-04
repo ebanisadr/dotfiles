@@ -4,4 +4,5 @@
 	name = Eric Banisadr
 	email = ebani@uw.edu
 [core]
-	excludesfile = /Users/eric/.gitignore_global
+	excludesfile = ~/.gitignore_global
+	autocrlf = input

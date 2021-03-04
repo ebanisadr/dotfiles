@@ -127,5 +127,5 @@ colorscheme solarized
 
 " Insert date with \now or \today
 nnoremap <leader>now "=strftime("%Y-%m-%d %H:%M")<CR>p
-nnoremap <leader>today "=strftime("%B %d, %Y")<CR>p
+nnoremap <leader>today "=strftime("%B %-d, %Y")<CR>p
 

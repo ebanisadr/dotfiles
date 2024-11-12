@@ -11,3 +11,5 @@
 # R
 .Rhistory
 
+# Obsidian
+.obsidian/**
